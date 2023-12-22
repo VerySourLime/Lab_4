@@ -21,16 +21,16 @@ int main()
     setlocale(LC_ALL, "Rus");
     SetConsoleCP(1251);  
     SetConsoleOutputCP(1251);
-    cout<<"Ââåäèòå a = ";
+    cout<<"Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ a = ";
     cin>>a;
-    cout<<"Ââåäèòå b = ";
+    cout<<"Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ b = ";
     cin>>b;
     check = (sqrt(1-0.4*pow(a,2))-asin(a))*(sqrt(1-0.4*pow(b,2))-asin(b));
     while(check>=0){
-        cout<<"Íà ââåä¸ííîì îòðåçêå íåò êîðíåé, ââåäèòå äðóãîé îòðåçîê"<<endl;
-        cout << "Ââåäèòå a = ";
+        cout<<"ÃÃ  Ã¢Ã¢Ã¥Ã¤Â¸Ã­Ã­Ã®Ã¬ Ã®Ã²Ã°Ã¥Ã§ÃªÃ¥ Ã­Ã¥Ã² ÃªÃ®Ã°Ã­Ã¥Ã©, Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¤Ã°Ã³Ã£Ã®Ã© Ã®Ã²Ã°Ã¥Ã§Ã®Ãª"<<endl;
+        cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ a = ";
         cin>>a;
-        cout << "Ââåäèòå b = ";
+        cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ b = ";
         cin>>b;
         check = (sqrt(1-0.4*pow(a,2))-asin(a))*(sqrt(1-0.4*pow(b,2))-asin(b));
     };
@@ -44,6 +44,6 @@ int main()
     while(abs(f(c))>=epsilon){
         c=c-(f(c)/f1(c));
     };
-    cout<<"X ðàâåí: "<<c;
+    cout<<"X Will be: "<<c;
     return 0;
 }
